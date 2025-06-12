@@ -1,2 +1,2 @@
 # Crypto-Website-Scraping
-Automatically scrape crypto website data daily
+Automatically scrapes crypto website data daily
