@@ -6,4 +6,4 @@ CoinMarketCap provides code to use their API, which I incorporated into a functi
 
 In the second part of the script, I reformat the data frame as a stack for convenience. Then I use the data to graph the growth of the 10 biggest crypto currencies.
 
-![Crypto Graph](Percent Change Graph.png)
+![Crypto Graph](Growth_Graph.png)
