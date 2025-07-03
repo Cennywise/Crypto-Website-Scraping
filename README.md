@@ -1,9 +1,7 @@
 # Crypto Web Scraping
 
-This is a program that scrapes data from the CoinMarketCap website using the site API. Many things could be done with this data. Here, I use it to track the growth of the 10 biggest cryptocurrencies.
+CoinMarketCap.com is a website that displays up-to-date information on cryptocurrencies such as Bitcoin, Ethereum, and Dogecoin. They also provide an API that allows users to scrape this data and use it themselves.
 
-CoinMarketCap provides code to use their API, which I incorporated into a function, run_api. The function scrapes the site data and records it in a CSV file. It also has a 1-minute sleep timer built in. The idea is to fun the program continuously in the background for it to collect data, but in the actual script, I have it set to stop after 5 min.
-
-In the second part of the script, I reformat the data frame as a stack for convenience. Then I use the data to graph the growth of the 10 biggest crypto currencies.
+In my script, I incorporate the API into a function, run_api(). It scrapes the site data and records it in a CSV file. It also has a 1-minute sleep timer built in, and the idea is to run the program continuously in the background for it to collect data. I have it set for testing purposes, though, so it stops after running for 5 min. Then from this data, I extract the top 10 cryptocurrencies and plot their recorded growth over various time periods.
 
 ![Crypto Graph](Growth_Graph.png)
